@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Days+One & display=swap') ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    box-sizing: border-box;
+    height: 100hv;   
+    color: lavender;
+    background-color: black;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo_destaque{
+    color: rgb(33, 14, 141);
+}
+
+.apresentacao{
+    font-family: 'Krona One', sans-serif;
+    margin: 10% 15%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao0{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.apresentacao1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao2{
+    border: 2px solid #22D4FD;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 18.5px 0;
+    color: rgb(197, 197, 197);
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+}
+
+.apresentacao2:hover{
+    background-color: #3d3d3d;
+    padding: 2%;
+}
+
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.link_secreto{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao{
+        flex-direction: column-reverse;
+        width: auto;
+    }
+}
+
+.secundario{
+    flex-direction: row;
+    color:rgb(255, 255, 255);
+    background-color: rgb(23, 0, 87);
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+}
